@@ -177,7 +177,7 @@ class CampsiteInfo extends Component {
                             <Button
                                 title='Submit'
                                 color='#5637DD'
-                                onPress={(campsiteId) => {
+                                onPress={() => {
                                     this.handleComment(campsiteId);
                                     this.resetForm();
                                 }}
